@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+}
+
+body {
+  background: var(--color-bg);
+  font-family: var(--font-family);
+  margin: 0;
+  color: white;
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.countdown-section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.countdown-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.countdown-box {
+  background: #031B34;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.countdown-box span {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
